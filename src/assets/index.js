@@ -6,6 +6,8 @@ import logoShirt from './logo-tshirt.png'
 import stylishShirt from './stylish-tshirt.png'
 import logoControls from './logo-controls.png'
 import textIcon from './text-icon.png'
+import textIcon2 from './text-icon2.png'
+import textIcon3 from './text-icon3.png'
 import textureLogoPicker from './textureLogoPicker.jpeg'
 import texture1 from './texture1.jpeg'
 import texture2 from './texture2.jpeg'
@@ -23,6 +25,8 @@ export {
   stylishShirt,
   logoControls,
   textIcon,
+  textIcon2,
+  textIcon3,
   textureLogoPicker,
   texture1,
   texture2,

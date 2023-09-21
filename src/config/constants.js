@@ -5,6 +5,8 @@ import {
   stylishShirt,
   logoControls,
   textIcon,
+  textIcon2,
+  textIcon3,
   download,
   textureLogoPicker,
   texture1,
@@ -31,7 +33,7 @@ export const EditorTabs = [
   },
   {
     name: 'textcontrols',
-    icon: textIcon,
+    icon: textIcon3,
   },
   {
     name: 'texturelogopicker',
@@ -54,7 +56,7 @@ export const FilterTabs = [
   },
   {
     name: 'backTextShirt',
-    icon: textIcon,
+    icon: textIcon2,
   },
   {
     name: 'stylishShirt',

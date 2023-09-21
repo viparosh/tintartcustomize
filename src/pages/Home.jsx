@@ -18,7 +18,7 @@ const Home = () => {
       {snap.intro && (
         <motion.section className="home" {...slideAnimation('left')}>
           <motion.div className="home-content" {...headContainerAnimation}>
-            <motion.div {...headTextAnimation}>
+            <motion.div {...headContentAnimation}>
               <h1 className="text-4xl">
                 Welcome to TintArt <br />
                 customize section
