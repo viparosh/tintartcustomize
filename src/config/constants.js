@@ -14,7 +14,6 @@ import {
   texture5,
   logo1,
   logo2,
-  logo3,
 } from '../assets'
 
 export const EditorTabs = [
@@ -126,11 +125,6 @@ export const texturesLogos = [
   {
     name: 'Back Logo 2',
     image: logo2,
-    type: 'backLogo',
-  },
-  {
-    name: 'Back Logo 3',
-    image: logo3,
     type: 'backLogo',
   },
 ]

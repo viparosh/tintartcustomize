@@ -14,10 +14,8 @@ import texture4 from './texture4.jpeg'
 import texture5 from './texture5.jpeg'
 import logo1 from './logo1.png'
 import logo2 from './logo2.png'
-import logo3 from './logo3.jpg'
 
 export {
-  logo3,
   fileIcon,
   swatch,
   download,

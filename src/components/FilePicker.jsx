@@ -21,25 +21,25 @@ const FilePicker = ({ file, setFile, readFile }) => {
         </p>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-3">
-        <CustomButton
-          type="outline"
-          title="Front Logo"
-          handleClick={() => readFile('frontLogo')}
-          customStyles="text-xs"
-        />
-        <CustomButton
-          type="outline"
-          title="Back Logo"
-          handleClick={() => readFile('backLogo')}
-          customStyles="text-xs"
-        />
-        <CustomButton
-          type="filled"
-          title="Full"
-          handleClick={() => readFile('full')}
-          customStyles="text-xs"
-        />
+      <div className="mt-4 gap-x-1 flex flex-row">
+        <button
+          className="px-3 py-1 bg-gray-800 text-white text-sm"
+          onClick={() => readFile('frontLogo')}
+        >
+          Front
+        </button>
+        <button
+          className="px-3 bg-gray-800 text-white text-sm"
+          onClick={() => readFile('backLogo')}
+        >
+          Back
+        </button>
+        <button
+          className="px-3 bg-amber-300 text-black text-sm"
+          onClick={() => readFile('full')}
+        >
+          Full
+        </button>
       </div>
     </div>
   )
