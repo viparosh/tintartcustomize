@@ -36,10 +36,6 @@ export const EditorTabs = [
     name: 'textcontrols',
     icon: textIcon3,
   },
-  {
-    name: 'texturelogopicker',
-    icon: textureLogoPicker,
-  },
 ]
 
 export const FilterTabs = [
@@ -58,10 +54,6 @@ export const FilterTabs = [
   {
     name: 'backTextShirt',
     icon: textIcon2,
-  },
-  {
-    name: 'stylishShirt',
-    icon: stylishShirt,
   },
   {
     name: 'downloadShirt',

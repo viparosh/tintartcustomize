@@ -172,17 +172,6 @@ const Customizer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="absolute top-0 right-0 z-10 gap-4">
-        {FilterTabs.map((tab) => (
-          <Tab
-            key={tab.name}
-            tab={tab}
-            isFilterTab
-            isActiveTab={activeFilterTab[tab.name]}
-            handleClick={() => handleActiveFilterTab(tab.name)}
-          />
-        ))}
-      </div> */}
     </>
   )
 }
