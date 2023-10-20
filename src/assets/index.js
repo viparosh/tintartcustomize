@@ -2,13 +2,14 @@ import fileIcon from './file.png'
 import swatch from './swatch.png'
 import download from './download.png'
 
-import logoShirt from './logo-tshirt.png'
+import logoShirtFront from './shirtfront.png'
+import logoShirtBack from './shirtback.png'
 import stylishShirt from './stylish-tshirt.png'
 import logoControls from './logo-controls.png'
 import textIcon from './text-icon.png'
 import textIcon2 from './text-icon2.png'
 import textIcon3 from './text-icon3.png'
-import textureLogoPicker from './textureLogoPicker.jpeg'
+import textureLogoPicker from './textureLogoPicker.png'
 import texture1 from './texture1.jpeg'
 import texture2 from './texture2.jpeg'
 import texture3 from './texture3.jpeg'
@@ -21,7 +22,8 @@ export {
   fileIcon,
   swatch,
   download,
-  logoShirt,
+  logoShirtFront,
+  logoShirtBack,
   stylishShirt,
   logoControls,
   textIcon,

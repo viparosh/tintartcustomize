@@ -1,7 +1,8 @@
 import {
   swatch,
   fileIcon,
-  logoShirt,
+  logoShirtFront,
+  logoShirtBack,
   stylishShirt,
   logoControls,
   textIcon,
@@ -44,11 +45,11 @@ export const EditorTabs = [
 export const FilterTabs = [
   {
     name: 'frontLogoShirt',
-    icon: logoShirt,
+    icon: logoShirtFront,
   },
   {
     name: 'backLogoShirt',
-    icon: logoShirt,
+    icon: logoShirtBack,
   },
   {
     name: 'frontTextShirt',

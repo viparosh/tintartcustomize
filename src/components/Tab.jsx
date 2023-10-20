@@ -8,7 +8,7 @@ const Tab = ({ tab, isFilterTab, isActiveTab, handleClick }) => {
 
   const activeStyles =
     isFilterTab && isActiveTab
-      ? { backgroundColor: 'black', opacity: 0.6 }
+      ? { backgroundColor: 'black', opacity: 0.7 }
       : { backgroundColor: 'transparent', opacity: 1 }
 
   return (
