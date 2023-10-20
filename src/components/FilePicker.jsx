@@ -23,22 +23,16 @@ const FilePicker = ({ file, setFile, readFile }) => {
 
       <div className="mt-4 gap-x-1 flex flex-row">
         <button
-          className="px-3 py-1 bg-gray-800 text-white text-sm"
+          className="px-3 w-1/2 py-1 bg-gray-800 text-white text-sm"
           onClick={() => readFile('frontLogo')}
         >
           Front
         </button>
         <button
-          className="px-3 bg-gray-800 text-white text-sm"
+          className="px-3 w-1/2 bg-gray-800 text-white text-sm"
           onClick={() => readFile('backLogo')}
         >
           Back
-        </button>
-        <button
-          className="px-3 bg-amber-300 text-black text-sm"
-          onClick={() => readFile('full')}
-        >
-          Full
         </button>
       </div>
     </div>

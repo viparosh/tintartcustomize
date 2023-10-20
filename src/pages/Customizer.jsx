@@ -133,16 +133,23 @@ const Customizer = () => {
     <>
       <div
         key="custom"
-        className="absolute top-0 left-0 z-10"
+        className="absolute top-0 left-0 z-30"
         {...slideAnimation('left')}
       >
         <div className="flex items-center min-h-screen">
           <div className="editortabs-container tabs">
             {EditorTabs.map((tab) => (
               <Tab
+                className="bg-white"
                 key={tab.name}
                 tab={tab}
-                handleClick={() => setActiveEditorTab(tab.name)}
+                handleClick={() => {
+                  if (tab.name == activeEditorTab) {
+                    setActiveEditorTab('')
+                  } else {
+                    setActiveEditorTab(tab.name)
+                  }
+                }}
               />
             ))}
 
@@ -151,8 +158,17 @@ const Customizer = () => {
         </div>
       </div>
 
+      <motion.div className="absolute z-30 top-5 right-5" {...fadeAnimation}>
+        <a href="https://tintart.vercel.app">
+          <CustomButton
+            type="filled"
+            title="Return to main"
+            customStyles="w-fit px-4 py-2.5 font-bold text-sm"
+          />
+        </a>
+      </motion.div>
       <div
-        key="custom"
+        key="custom-2"
         className="absolute top-0 right-0 z-10"
         {...slideAnimation('left')}
       >
@@ -167,8 +183,6 @@ const Customizer = () => {
                 handleClick={() => handleActiveFilterTab(tab.name)}
               />
             ))}
-
-            {generateTabContent()}
           </div>
         </div>
       </div>
